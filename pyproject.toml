@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hack-tools"
+version = "0.1.0"
+description = ""
+authors = ["otavius <developer.otavius@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.67.1"
+python3-resolver = "^1.0.3"
+dnspython = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
