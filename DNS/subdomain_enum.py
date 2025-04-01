@@ -1,7 +1,7 @@
 import requests
 import threading
 
-domain = "youtube.com"
+domain = "192.168.83.131/mutillidae/"
 
 with open("subdomains.txt") as file:
     subdomains = file.read().splitlines()
